@@ -440,19 +440,13 @@ textarea {
     background-color: #152a3e;
   }
 
-  footer .contact-wrapper {
-    display: flex;    
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  footer .content-wrapper {
-    flex-flow: row wrap;
+  footer .lets-connect {
     display: flex;
+    flex-flow: row wrap;    
+    justify-content: center;
   }
 
-  footer .contact-info {
+  footer .contact-info {  
     width: 60%;
     color: white;
   }
@@ -473,9 +467,9 @@ textarea {
   }
 
   footer .social-icons {
-    width: 40px;
-    height: 40px;
     display: flex;
+    width: 40px;
+    height: 40px;    
     justify-content: center;
     align-items: center;
   }
