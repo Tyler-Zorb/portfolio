@@ -444,10 +444,11 @@ textarea {
     display: flex;
     flex-flow: row wrap;    
     justify-content: center;
+    width: 100%;
   }
 
   footer .contact-info {  
-    width: 60%;
+    width: 100%;
     color: white;
   }
 
@@ -459,11 +460,7 @@ textarea {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-  }
-
-  footer .social-icons {
-    display: flex;
-    justify-content: space-around;
+    width: 100%;
   }
 
   footer .social-icons {
@@ -472,11 +469,8 @@ textarea {
     height: 40px;    
     justify-content: center;
     align-items: center;
-  }
-
-  footer .social-icons {
     font-size: .775rem;
-    color: white;
+    color: white; 
   }
 
   footer .copyright {
@@ -502,12 +496,12 @@ textarea {
 
 .contact-form {
   width: 50%;
-  margin-bottom: 15px;
-  margin-left: auto;
+  margin-bottom: 15px;  
 }
 
 form {   
   text-align: center;
+  margin-right: 1em;
 }
 
 form input, form textarea {
@@ -535,10 +529,10 @@ form ::placeholder {
   cursor: pointer;
   font-weight: 900;
   border: none;
-  width: 20%;
-  margin: .25em;
+  width: 30%;
   padding: 15px 0 15px 0;
   font-size: 1.25em;
+  margin-left: 1em;
 }
 
 #contact-form button:hover {
